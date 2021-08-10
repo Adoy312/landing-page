@@ -1,0 +1,338 @@
+ #first-container{
+    height: 60%;
+    background: #eb9b34;
+    width: 98%;
+    border-radius: 3px;
+    position: relative;
+    padding: 20px auto;
+ }
+    
+    
+    
+ 
+ /* #container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;} */
+.first{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    
+    
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    grid-row-gap: 10px;
+    
+} 
+#second-container{
+    
+    background:#288583;
+    width: 98%;
+    height: 60%;
+    
+} 
+ .second{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    
+    
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    grid-row-gap: 10px;
+    
+    position: relative;
+    left: 10%;
+    
+    
+}
+#third-container{
+    
+    background:#0f403f ;
+    width: 98%;
+    border-radius: 3px;
+    height: 80%; }
+
+  .third{
+    
+   
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    
+    
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    grid-row-gap: 10px;
+    
+    position: relative;
+    left: 10%;
+    
+} 
+ body{
+    background: #e1eded;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+
+}
+ body > div{
+    
+    padding: 20px;
+    
+    
+    
+} 
+#sedan{
+     line-height: 20px; 
+     width: 80%; 
+    
+    
+    
+} 
+ a{
+    color: #eb9b34;
+    padding: 15px 50px;
+    border-radius: 40px;
+    background: white;
+    text-decoration: none;
+}   
+
+   @media screen and (min-width:300px) {
+    #first-container{
+        height: 90%;
+    }
+    #sedan{
+        line-height: 20px;
+        word-spacing: 1px;
+        text-justify: left;
+        
+        
+        
+        width: 90%;}
+        
+
+    #second-container{
+        height: 90%;
+    }
+
+    #third-container{
+        height: 90%;
+    }
+    #suv{
+        width: 80%;
+        line-height: 18px;
+        word-spacing: 1px;
+
+    }
+    #luxury{
+        width: 80%;
+        line-height: 18px;
+        word-spacing: 1px;
+
+    } 
+    
+} 
+ @media screen and (min-width:350px) {
+    #first-container{
+        height: 65%;
+    }
+    #sedan{
+       
+        
+        width: 85%;}
+
+    #second-container{
+        height: 65%;
+    }
+
+    #third-container{
+        height: 65%;
+    }
+    #suv{
+        width: 75%;
+        line-height: 18px;
+        word-spacing: 1px;
+
+    }
+    #luxury{
+        width: 75%;
+        line-height: 18px;
+        word-spacing: 1px;
+
+    }
+}
+
+ @media screen and (min-width:411px) {
+    #first-container{
+        height: 70%;
+        width: 100%;
+    }
+    body{
+        font-size: 19px;
+        line-height: 40px;
+    }
+
+    #second-container{
+        
+        height: 70%;
+        width: 100%;
+    }
+
+    #third-container{
+        
+        height: 70%;
+        width: 100%;
+    }
+    #container{
+        padding: 20px 30px 20px 50px;
+    }
+    
+}  
+
+@media screen and (min-width:600px) {
+    #first-container{
+        height: 58%;
+        width: 85%;
+    }
+   
+    body{
+        font-size: 19px;
+        line-height: 1.8em;
+    }
+
+    #second-container{
+        
+        height: 58%;
+        width: 85%;
+    }
+    .first{
+        padding-top: 40px;
+    }
+    .second{
+        padding-top: 40px;
+    }
+    .third{
+        padding-top: 40px;
+    }
+
+    #third-container{
+        
+        height: 58%;
+        width: 85%;
+    }
+    #container{
+        padding: 20px 30px 20px 90px;
+        
+        
+    }
+    #sedan{
+       
+        
+        width: 80%;}
+    
+} 
+
+ @media screen and (min-width:1000px) {
+    #first-container{
+        height: 40vh;
+        width: 40vw;
+        background-color: #eb9b34;
+       
+    }
+    body{
+        font-size: 19px;
+        line-height: 40px;
+    }
+
+    #second-container{
+        
+        height: 40vh;
+        width: 40vw;
+    }
+
+    #third-container{
+        
+        height: 40vh;
+        width: 40vw;
+    }
+    #container{
+        
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 20%;
+        padding: 70px;
+        
+        
+
+
+    }
+
+    
+    
+   
+    
+    
+}   
+
+@media screen and (min-width:1200px) {
+    #first-container{
+        height: 80vh;
+        width: 40vw;
+        background-color: #eb9b34;
+    }
+    body{
+        font-size: 19px;
+        line-height: 40px;
+        
+        
+    }
+
+    #second-container{
+        
+        height: 80vh;
+        width: 40vw;
+    }
+
+    #third-container{
+        
+        height: 80vh;
+        width: 40vw;
+    }
+   
+    #container{
+        
+        display: flex;
+        flex-direction: row;
+        
+        padding-top: 0;
+       
+        
+        
+        /* padding: 70px; */
+        
+        
+
+
+    }
+    
+    /* #first-container > div{
+        background-color: #eb9b34;
+        height: 70%;
+        
+        
+    } */
+   
+    
+    
+}   
+
+
+
+  
+     
+
+
+
